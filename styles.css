@@ -282,7 +282,7 @@ body {
   color: var(--pri-clr);
 }
 
-.toggle_button {
+.toggle_buttons {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -293,9 +293,10 @@ body {
   background: var(--accent-clr);
   border-radius: 0px;
   border: 0px;
+  z-index: 1000000000000;
 }
 
-.toggle_button .bar {
+.toggle_buttons .bar {
   height: 2px;
   width: 100%;
   background-color: black;

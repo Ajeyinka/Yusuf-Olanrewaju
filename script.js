@@ -485,7 +485,7 @@
 
 const navbar = document.querySelector(".navbar");
 
-const toggleButton = document.getElementById("toggle_button");
+const toggleButton = document.getElementById("toggle_buttons");
 const navbarLinks = document.querySelector(".nav-list");
 const menuBars = document.querySelectorAll(".bar");
 
