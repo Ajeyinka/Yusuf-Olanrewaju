@@ -365,7 +365,7 @@ body {
   margin-top: 8px;
 }
 .hero-section {
-  margin-top: 8rem;
+  margin-top: 2rem;
 }
 
 .grid {
@@ -1312,6 +1312,18 @@ body {
 
 /* Mobile dropdown */
 @media (max-width: 768px) {
+  .yellow {
+    background: #fde999;
+    color: black;
+    padding: 1.5rem;
+    border-radius: 32px;
+  }
+
+  .yellow .button-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
   .nav-dropdown {
     width: 100%;
   }
