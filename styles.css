@@ -289,11 +289,13 @@ body {
   width: 40px;
   height: 40px;
   padding: 10px;
-  z-index: 10000;
   background: var(--accent-clr);
   border-radius: 0px;
   border: 0px;
   z-index: 1000000000000;
+  position: fixed;
+  right: 30px;
+  top: 20px;
 }
 
 .toggle_buttons .bar {
@@ -303,15 +305,7 @@ body {
   transition: width 400ms ease-in;
 }
 
-.btn-toggle-hold {
-  display: none;
-}
-
 @media (max-width: 900px) {
-  .btn-toggle-hold {
-    display: flex;
-  }
-
   .bar.active {
     transition: transform 0.6s ease-in-out;
   }
@@ -357,7 +351,6 @@ body {
   flex-direction: column;
   gap: 24px;
   max-width: 600px;
-  align-items:;
 }
 
 .button-wrapper {
