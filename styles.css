@@ -1141,6 +1141,7 @@ body {
 .footer-grid {
   display: flex;
   gap: 40px;
+  flex-wrap: wrap;
   justify-content: space-between;
   border-top: 1px solid var(--accent-light);
   padding-top: 40px;
